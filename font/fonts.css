@@ -1,0 +1,32 @@
+
+@font-face {
+    font-family: 'helvetica_neu';
+    src: url('helveticaneue-cond-reg.woff2') format('woff2'),
+         url('helveticaneue-cond-reg.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica_neu';
+    src: url('helveticaneue-cond-med.woff2') format('woff2'),
+         url('helveticaneue-cond-med.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica_neu';
+    src: url('helveticaneue-cond-bold.woff2') format('woff2'),
+         url('helveticaneue-cond-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica_neu_ext';
+    src: url('helveticaneue-ext-reg.woff2') format('woff2'),
+         url('helveticaneue-ext-reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
