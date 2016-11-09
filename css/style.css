@@ -44,12 +44,15 @@ div.menu-container{
 ul.menubar {
 	display: block;
 	position: relative;
-	left: calc(50% - 340px);
+	/*left: calc(50% - 340px);*/
+	text-align: right;
+	right: 20px;
 	list-style: none;
 }
 
 ul.menubar>li {
 	display: inline-block;
+	vertical-align: middle;
 }
 
 ul.menubar>li>a {
@@ -64,9 +67,6 @@ ul.menubar>li>a {
 ul.menubar>li>a:hover {
 	background-color: #69c;
 	color: #fff;
-	/*padding: 8px 19px;*/
-	/*border-right: 1px solid #AAA;*/
-	/*border-left: 1px solid #AAA;*/
 }
 
 ul.menubar>li>a:focus{
@@ -82,8 +82,8 @@ ul.menubar>li>a:focus{
 
 
 .flag{
-	/*display: table-cell;*/
 	display: inline-block;
+	/*vertical-align: middle;*/
 	vertical-align: bottom;
 	padding-left: 6px;
 	border-left: 1px solid #79b;
@@ -190,7 +190,7 @@ span.ou{
 	color: #888;
 }
 
-span.ou > div{
+span.ou > span{
 	display: inline-block;
 	width: 117px;
 	height: 1px;
